@@ -1,0 +1,187 @@
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: "Space Mono", monospace;
+  }
+
+  /* navbar styling */
+  header {
+
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+  }
+  header nav h1 {
+    font-size: 2.3em;
+  }
+  header nav i {
+    font-size: 2rem !important;
+  }
+  /* main styling */
+  /* section-1 */
+  main {
+    background-color: #fafafa;
+  }
+  .sec-1 {
+    padding: 10px;
+
+    padding-bottom: 2.5rem;
+  }
+  .sec-1 h1 {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.5rem;
+  }
+  /* section-2 */
+  .sec-2 {
+    padding: 10px;
+
+
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  .sec-2 h1 {
+    font-size: 2.9rem;
+  }
+  .sec-2 p {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  /* section-3 */
+  .sec-3 {
+    padding: 10px;
+
+
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  .sec-3 div {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sec-3 div h1 {
+    font-size: 4rem;
+    font-weight: 300;
+  }
+  .sec-3 div p {
+    font-size: 1rem;
+  }
+  /* section-4 */
+  .sec-4 {
+    padding: 10px;
+
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  .sec-4 h1 {
+    font-size: 3rem;
+    font-weight: 900;
+  }
+  .sec-4 .box {
+
+    margin-bottom: 2rem;
+  }
+  .sec-4 .box .b-1 {
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+  }
+  .sec-4 .box p {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  /* section-5 */
+  .sec-5 {
+    padding: 10px;
+
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  .sec-5 h1 {
+    font-size: 3rem;
+    font-weight: 900;
+  }
+  .sec-5 .box .b-1 {
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+  }
+  .sec-5 .box p {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  .sec-5 .btn-sec-5 {
+    background: none;
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 2px;
+    font-family: "Space Mono", monospace;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .sec-5 .s5-d2 {
+
+    margin: 2rem 0;
+  }
+  .sec-5 .s5-d2 ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .sec-5 .s5-d2 ul li {
+    list-style: none;
+    margin: 1rem 0;
+    padding: 1rem 0;
+  }
+  .sec-5 .s5-d2 ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 10vw;
+  }
+  .sec-6{
+    height: 100rem;
+    padding: 10px;
+
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  .sec-6 h1 {
+    font-size: 3rem;
+    font-weight: 900;
+  }
+  .sec-6 .box .b-1 {
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+  }
+  .sec-6 .box p {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  .sec-6 .s6-d2 {
+
+    margin: 2rem 0;
+  }
+  .sec-6 .s6-d2 div{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  .sec-6 .s6-d2 div i{
+    font-size: 6vw;
+
+    padding: 5px;
+    margin-right: 10px;
+  }
